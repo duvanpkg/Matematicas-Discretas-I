@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Duvan\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Duvan\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Lab 7.0.-145863392.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 7.0" t="IncludeRecursive">
+      <e p=".vs" t="Include">
+        <e p="Lab 7.0" t="Include">
+          <e p="v16" t="Include">
+            <e p=".suo" t="Include" />
+            <e p="Server" t="Include">
+              <e p="sqlite3" t="Include">
+                <e p="db.lock" t="Include" />
+                <e p="storage.ide" t="Include" />
+                <e p="storage.ide-shm" t="Include" />
+                <e p="storage.ide-wal" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Lab 7.0.csproj" t="IncludeRecursive" />
+      <e p="Lab 7.0.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="Lab 7.0.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+    </e>
+  </component>
+</project>

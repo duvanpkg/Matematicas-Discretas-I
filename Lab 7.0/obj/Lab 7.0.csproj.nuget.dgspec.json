@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Duvan\\Desktop\\CARRERA\\Segundo semestre\\DiscretasMath\\Laboratorios\\Lab 7.0\\Lab 7.0.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Duvan\\Desktop\\CARRERA\\Segundo semestre\\DiscretasMath\\Laboratorios\\Lab 7.0\\Lab 7.0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Duvan\\Desktop\\CARRERA\\Segundo semestre\\DiscretasMath\\Laboratorios\\Lab 7.0\\Lab 7.0.csproj",
+        "projectName": "Lab 7.0",
+        "projectPath": "C:\\Users\\Duvan\\Desktop\\CARRERA\\Segundo semestre\\DiscretasMath\\Laboratorios\\Lab 7.0\\Lab 7.0.csproj",
+        "packagesPath": "C:\\Users\\Duvan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Duvan\\Desktop\\CARRERA\\Segundo semestre\\DiscretasMath\\Laboratorios\\Lab 7.0\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Duvan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\bin\Debug\Lab 3.0.exe.config
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\bin\Debug\Lab 3.0.exe
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\bin\Debug\Lab 3.0.pdb
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\obj\Debug\Lab 3.0.csprojAssemblyReference.cache
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\obj\Debug\Lab 3.0.csproj.CoreCompileInputs.cache
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\obj\Debug\Lab 3.0.exe
+C:\Users\Duvan\Desktop\CARRERA\Segundo semestre\DiscretasMath\Lab 3.0\obj\Debug\Lab 3.0.pdb
