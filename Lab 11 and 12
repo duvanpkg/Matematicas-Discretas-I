@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab_11n12
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string abstr = "";
+            string finaloutput = "";
+            while (!abstr.Equals("0 0"))
+            {
+                List<string> aliceCards = new List<string>();
+                List<string> bettyCards = new List<string>();
+
+                abstr = Console.ReadLine();
+                if (abstr.Equals("0 0"))
+                {
+                    continue;
+                }
+                int a = int.Parse(abstr.Split(' ')[0]);
+                int b = int.Parse(abstr.Split(' ')[1]);
+                string cardsAstr = Console.ReadLine();
+                string cardsBstr = Console.ReadLine();
+
+                var cardsA = (cardsAstr.Split(' ')[0]);
+                for (int i = 0; i <= a; i++)
+                {
+                    aliceCards.Add(cardsA[i]);
+                }
+                var cardsB = (cardsBstr.Split(' ')[1]);
+                for (int j = 0; j <= b; j++)
+                {
+                    bettyCards.Add(cardsB[j]);
+                }
+
+                //---------LECTURA HASTA ACÁ---------//
+
+                IEnumerable<string>  alice = aliceCards.Distinct();
+                IEnumerable<string> betty = bettyCards.Distinct(); //eliminar repetidas
+
+                //alice = alice.ToList();
+                //betty = betty.ToList();
+
+                var commonElements = alice.Intersect(betty).ToList();
+
+                alice = alice.Except(commonElements);
+                betty = betty.Except(commonElements);
+                 
+
+                if (alice.Count() <= betty.Count())
+                {
+                    finaloutput += (alice.Count() + "\n");
+                }
+                else
+                {
+                    finaloutput += (betty.Count() + "\n");
+                }
+            }
+
+            Console.WriteLine(finaloutput);
+
+        }
+    }
+}
