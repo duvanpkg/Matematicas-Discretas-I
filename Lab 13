@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace labb13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string finalOutput = "";
+            string x = "";
+            while (x != ("0 0"))
+            {
+                string input = Console.ReadLine();
+                x = input;
+                if (x=="0 0")
+                {
+                    continue;
+                }
+                List<double> longitudes = new List<double>();
+                List<double> discos = new List<double>();
+
+                double Vtotal = double.Parse(input.Split(' ')[0]); //Volumen total
+                double Vo = double.Parse(input.Split(' ')[1]); //Volumen consumido
+
+                double V=0;
+                double deltaV = 0;
+                for(int i = 1; i <= Vtotal; i++) //i es el numero de discos (siempre entero)
+                {
+                    V = Vtotal / i;
+                    deltaV = V - Vo;
+
+                    //funcion p(x)
+                    double D = 0;
+                    if (V > Vo)
+                    {
+                        D = 0.3 * Math.Sqrt(deltaV);
+                        longitudes.Add(D*i);
+                        discos.Add(i);
+
+                    }
+                    if (V <= Vo)
+                    {
+                        D = 0;
+                        longitudes.Add(D*i);
+                        discos.Add(i);
+                    }
+
+                }
+
+
+                double max = longitudes.Max();
+                int indice = longitudes.IndexOf(max);
+                double discosNum = discos.ElementAt(indice);
+
+                finalOutput += discosNum+"\n";
+                
+            }
+            Console.WriteLine(finalOutput);
+        }
+    }
+}
